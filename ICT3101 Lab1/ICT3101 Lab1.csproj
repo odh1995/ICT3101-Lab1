@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ICT3101_Lab1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="SpecFlow" Version="3.4.8" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.4.8" />
+    <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.4.8" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.4.8" />
+  </ItemGroup>
+
+</Project>
